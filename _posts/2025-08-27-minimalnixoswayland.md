@@ -5,6 +5,7 @@ date: 2025-08-27T11:57:19.306Z
 preview: ""
 tags:
     - wayland
+    - nixos
 categories:
     - nixos
 layout: post
