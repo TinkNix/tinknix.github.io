@@ -9,7 +9,7 @@ categories:
     - nixos
 layout: post
 subtitle: a minimal wayland on nixos
-author: ""
+author: Damien
 comments: false
 mathjax: false
 draft: false
