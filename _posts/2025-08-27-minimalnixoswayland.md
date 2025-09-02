@@ -16,7 +16,7 @@ mathjax: false
 draft: false
 ---
 
-Depuis des années j'utilisais I3 un Tiling Windows Manager pour X11. J'ai apprécié la simplicité de sa configuration, sa rapidité & légèreté et de plus très utilisé par la communauté. Pour mon passage à wayland, j'ai testé Hyprland, Sway.  
+Depuis des années j'utilisais i3 un Tiling Windows Manager pour X11. J'ai apprécié la simplicité de sa configuration, sa rapidité & légèreté et de plus très utilisé par la communauté. Pour mon passage à wayland, j'ai testé Hyprland, Sway.  
 Hyprland trop instable pour l'instant et Sway malgré qu'il soit compatible I3, je n'ai pas accroché.  
 
 J'ai découvert Niri, un scrollable tiling wayland compositor.  
@@ -51,7 +51,7 @@ Quelques options pour la compatibilité
   ];
 ```
 
-Appliquer la configfuration
+Appliquer la configuration
 > sudo nixos-rebuild switch
 
 Pour compléter Niri, j'ai rajouté
