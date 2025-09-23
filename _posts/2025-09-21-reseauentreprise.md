@@ -45,14 +45,6 @@ Contexte matériel:
 - téléphonie routeur / Smartphone perso
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
-```mermaid
 graph LR;
 FAI[(Internet)] --|WAN|--> BOX[Routeur 192.168.0.0/24]
 BOX --|Ethernet|--> SW1[(Switch)]
