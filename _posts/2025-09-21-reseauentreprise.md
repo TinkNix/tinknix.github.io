@@ -8,20 +8,19 @@ tags:
   - sécurité
 categories: []
 layout: post
-subtitle: réflexions et propositions sur les infrastructures
+subtitle: Réflexions et propositions sur les infrastructures
 author: Damien
 comments: false
 mathjax: false
 draft: false
 ---
 
-Cet article propose une réflexion sur les architectures réseaux typiques observées selon la taille et la structure des entreprises. L’objectif est d’énumérer les meilleures pratiques ainsi que les priorités en matière de sécurité, tout en tenant compte des contraintes économiques et des niveaux de qualification du personnel. Ce contenu vise à fournir des propositions pour la sécurisation des infrastructures réseau, en équilibrant efficacité, coûts et compétences disponibles.
-
-il est soumis à évolution.
+Cet article propose une réflexion sur les architectures réseaux typiques observées selon la taille et la structure des entreprises. L’objectif est d’énumérer les meilleures pratiques ainsi que les priorités en matière de sécurité, tout en tenant compte des contraintes économiques et des niveaux de qualification du personnel. Ce contenu vise à fournir des propositions pour la sécurisation des infrastructures réseau, en équilibrant efficacité, coûts et compétences disponibles.  
+Il est soumis à évolution.
 
 [Réseau TPE](#réseau-tpe)  
 [Réseau petite PME](#hypothèse-petite-pme)  
-[réseau PME structuré](#hypothèse-pme-structuré)
+[Réseau PME structuré](#hypothèse-pme-structuré)
 
 # Réseau TPE
 
@@ -44,6 +43,14 @@ Contexte matériel:
 - webmail opérateur ou gmail
 - backup local sur poste
 - téléphonie routeur / Smartphone perso
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
 ```mermaid
 graph LR;
