@@ -14,6 +14,7 @@ comments: false
 mathjax: false
 draft: false
 ---
+{% include mermaid.html %}
 
 Cet article propose une réflexion sur les architectures réseaux typiques observées selon la taille et la structure des entreprises. L’objectif est d’énumérer les meilleures pratiques ainsi que les priorités en matière de sécurité, tout en tenant compte des contraintes économiques et des niveaux de qualification du personnel. Ce contenu vise à fournir des propositions pour la sécurisation des infrastructures réseau, en équilibrant efficacité, coûts et compétences disponibles.  
 Il est soumis à évolution.
